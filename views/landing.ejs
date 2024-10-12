@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles2.css"> 
+</head>
+<body>
+
+    <div id="heading" class="box">
+        <h1>Welcome to ToDo-App</h1>
+    </div>
+    
+    <div class="box">
+        <form action="/login" method="post">
+            <div class="item">
+                <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="item">
+                <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="item" style="text-align: center;">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <footer>Don't have an account? <a href="/register">Register here</a></footer>
+    </div>
+
+</body>
+</html>
